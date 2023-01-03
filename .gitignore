@@ -1,0 +1,4 @@
+.env
+*.pyc
+NameGenerator.egg-info/
+todos.json

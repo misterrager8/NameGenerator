@@ -1,0 +1,11 @@
+smart
+fast
+quick
+red
+blue
+green
+wandering
+light
+dark
+cold
+hot
