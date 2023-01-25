@@ -8,17 +8,28 @@ html[data-theme='dark'] {
 	--primary-txt: #cccccc;
 }
 
-body, nav, .form-control, .form-control:focus {
+body {
 	background-color: var(--primary-bg);
 	color: var(--primary-txt);
 }
 
-a, a:hover, .nav-link, .nav-link:hover {
-	color: inherit;
+a, a:hover {
 	text-decoration: none;
+	color: inherit;
 	cursor: pointer;
 }
 
-::placeholder, .nav-link, .btn {
+.btn, ::placeholder, label {
 	letter-spacing: 1px;
+}
+
+.btn-outline-secondary {
+	border-color: var(--primary-txt);
+	color: var(--primary-txt);
+}
+
+.btn-outline-secondary:hover {
+	background-color: var(--primary-txt);
+	border-color: var(--primary-txt);
+	color: var(--primary-bg);
 }

@@ -1,4 +1,5 @@
 .env
 *.pyc
-NameGenerator.egg-info/
+node_modules/
+build/
 todos.json
