@@ -52,8 +52,9 @@ function App() {
 
 	return (
 		<div className="p-5">
-			<div>
+			<div className="d-flex justify-content-between">
 				<a onClick={() => changeTheme(theme === 'light' ? 'dark' : 'light')} className={'text-capitalize btn btn-sm btn-outline-' + (theme === 'light' ? 'dark' : 'light')}><i className={'bi bi-' + (theme==='light'?'moon':'sun') + '-fill'}></i> {theme==='light'?'dark':'light'}</a>
+				<a target="_blank" href="http://github.com/misterrager8/NameGenerator" className={'btn btn-sm btn-outline-secondary'}><i className={'bi bi-github'}></i> About</a>
 			</div>
 			<div className="text-center mt-4">
 				<div className="fst-italic" style={{ fontSize: '6em' }}>{random}</div>
